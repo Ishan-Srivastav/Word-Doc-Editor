@@ -1,0 +1,56 @@
+/* Styling the editor container */
+.editor-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Title above the editor */
+.editor-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Wrapper around the ReactQuill editor */
+.editor-wrapper {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Custom styles for the ReactQuill editor */
+.custom-quill .ql-toolbar {
+  background-color: #f3f3f3;
+  border-radius: 8px 8px 0 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.custom-quill .ql-container {
+  min-height: 300px;
+  border-radius: 0 0 8px 8px;
+  background-color: white;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.custom-quill .ql-editor {
+  padding: 15px;
+  color: #333;
+}
+
+/* Styling focus state of the editor */
+.custom-quill .ql-container.ql-snow {
+  border: none;
+}
+
+.custom-quill .ql-editor:focus {
+  outline: none;
+}
